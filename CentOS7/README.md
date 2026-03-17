@@ -9,7 +9,10 @@
 
 
 ```bash
+sudo wget -O /etc/yum.repos.d/CentOS-Base.repo \
+https://raw.githubusercontent.com/Newfile01/linux-fixes/main/CentOS7/CentOS-Base.repo
 
-
+yum clean all
+yum makecache
 ```
 
